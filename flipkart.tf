@@ -7,3 +7,8 @@ resource "aws_s3_bucket" "b" {
     Environment = "Dev"
   }
 }
+
+  name     = "demodb"
+  username = "user"
+  password = "YourPwdShouldBeLongAndSecure!"
+  port     = "3306"
